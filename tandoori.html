@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+        <div class="nav-center">
+          <div class="nav-header">
+            <button class="nav-btn btn">
+              <i class="fas fa-align-justify"></i>
+            </button>
+          </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> Home </a>
+          <a href="about.html" class="nav-link"> About Us</a>
+          <a href="tags.html" class="nav-link"> Tags </a>
+          <a href="recipes.html" class="nav-link"> Recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> Contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/tandoori.jpeg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Tandoori Chicken</h2>
+            <p>
+              
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p> 40 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p> 20 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>8 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tags : <a href="tag-template.html">Breakfast</a>
+              <a href="tag-template.html">Lunch</a>
+              <a href="tag-template.html">Dinner</a>
+              <a href="tag-template.html">Dessert</a>
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Prepare the marinade</p>
+                <p>1.In a bowl add ginger and garlic paste, red chilli paste, chaat masala, tandoori masala, oil, curd, salt and lemon juice. Mix it well.</p>
+                <p>2.Rub the marinade on the chicken pieces, over the skin and underneath it. Make small gashes in the chicken pieces for the marinade to coat it nicely.
+                <p>3.Marinate the chicken pieces for 30 minutes.
+                <p>4.Char grill the chicken pieces on a griller or tandoor. Baste with oil at regular intervals.</p>
+                <p>5.Serve with lemon wedges and onion rings.</p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Prepare tandoori masala</p>
+                <p>1.In a pan dry roast cinnamon, peppercorns, green cardamom, brown cardamom, coriander seeds, cumin seeds, cloves, bay leaf and turmeric powder.</p>
+                <p>2.In a mortar and pestle grind the dry roasted spices into a fine powder. Masala is ready.</p>
+                <p>3.If you are making it in an oven, the temperature needs to be around 250-300 degrees C.</p>
+             </div>
+             <div class="single-instruction">
+                <header>
+                  <p>step 3</p>
+                  <div></div>
+                </header>
+                <p>Serve Hot.</p>
+               </div>
+
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p>8 Large Chicken pieces with skin (2 pieces breast, 2 pieces of thighs, a couple of wings)to taste OilFor the marinade:
+                4 tsp Red chilli paste3 tbsp Ginger and garlic paste2 tsp Chaat masala1 1/2 tsp Tandoori masala1 tbsp Oil3 tbsp Curdto taste Salt1/2 Lemon (juiced)For the tandoori masala:2 Cinnamon sticks1 tbsp Black peppercorns5 Green cardamom3 Brown cardamom
+                2 tsp Coriander seeds2 tsp Cumin seeds3 Cloves1 Bay leaf3/4 tsp Turmeric</p>  
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+        <p>
+            &copy; <span id="date"></span>
+            <span class="footer-logo">HomelyRecipes</span> 
+          </p>
+        </footer>
+        <script src="./js/app.js"></script>
+  </body>
+</html>

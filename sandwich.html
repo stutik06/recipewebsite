@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+        <div class="nav-center">
+          <div class="nav-header">
+            <button class="nav-btn btn">
+              <i class="fas fa-align-justify"></i>
+            </button>
+          </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> Home </a>
+          <a href="about.html" class="nav-link"> About Us</a>
+          <a href="tags.html" class="nav-link"> Tags </a>
+          <a href="recipes.html" class="nav-link"> Recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> Contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/sandwich.jpeg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Pink Sauce Pasta</h2>
+            <p>
+              
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p> 20 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p> 3 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>3 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tags : <a href="tag-template.html">Breakfast</a>
+              <a href="tag-template.html">Lunch</a>
+              <a href="tag-template.html">Dinner</a>
+              <a href="tag-template.html">Dessert</a>
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Prepare a marinade with yoghurt, red chilli powder, turmeric powder, coriander powder, cumin powder, garam masala, amchur, kasuri methi, ginger-garlic paste and salt.</p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Add the chopped paneer, onion, capsicum and tomato to the marinade. Mix till the veggies and the paneer is coated. Let it marinate for 30 minutes.</p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+                <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Heat oil in a kadhai, add the marinated mixture and fry it till the paneer turns golden and crisp.
+              </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>step 4</p>
+                <div></div>
+              </header>
+              <p>
+                Spread the green chutney over slices of bread. Place the paneer tikka on the bread and close the sandwich. 
+              </p>
+            </div>
+            <div class="single-instruction">
+                <header>
+                  <p>step 5</p>
+                  <div></div>
+                </header>
+                <p>
+                Toast the sandwich on a grill till it is evenly crisp. The paneer tikka sandwich is ready!
+                </p>
+              </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p>3/4 cup Yogurt1 tsp Red chilli powder1/4 tsp Turmeric powder1/2 tsp Coriander powder1/4 tsp Cumin powder
+                1/2 tsp Garam masala1/2 tsp Amchur1 tsp Kasuri methi1 tsp Ginger-garlic paste1/2 tsp Salt1 cup Paneer
+                1/2 Onion, chopped1/2 Capsicum, chopped1 Tomato, chopped2 tbsp OilBread slices1 cup Green chutney.</p>  
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+        <p>
+            &copy; <span id="date"></span>
+            <span class="footer-logo">HomelyRecipes</span> 
+          </p>
+        </footer>
+        <script src="./js/app.js"></script>
+  </body>
+</html>
